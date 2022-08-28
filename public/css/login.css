@@ -1,0 +1,68 @@
+@import url(styles.css);
+/* Colores */
+
+:root {
+    /* COLORES */
+    --color-amarillo : #EAC926;
+    --color-azul : #03264C;
+    --color-celeste : #1259c3;
+    --color-grisOscuro : #666;
+    --color-grisClaro : #ebebeb;
+    --color-verde : #39b54a;
+    /* FUENTES */
+    --font-roboto : 'Roboto', sans-serif;
+    /* Tamaños de fuentes */
+    --paragraph : 12px;
+    --title : 24px;
+    --prices : 18px;
+    --discounts-descriptions : 16px;
+}
+
+
+/* Generales */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--font-roboto);
+}
+
+li{
+    list-style: none;
+}
+
+/* Fin Generales */
+
+main form{
+    width: 80%;
+}
+
+main form.form-login{
+    display: flex;
+    flex-direction:column ;
+    margin: 20px auto;
+}
+main form.form-login input{
+    border-radius: 5px;
+    margin: 15px 0;
+    border: none;
+    padding: 15px;
+}
+main form button.submit{
+    border-radius: 5px;
+    padding: 10px;
+    background-color:  var(--color-celeste);
+    color: white;
+}
+
+
